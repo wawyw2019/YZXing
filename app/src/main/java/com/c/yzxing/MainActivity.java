@@ -88,7 +88,6 @@ public class MainActivity extends AppCompatActivity {
                     if (data == null) {return;}
                     String type = data.getStringExtra(Constant.EXTRA_RESULT_CODE_TYPE);
                     String content = data.getStringExtra(Constant.EXTRA_RESULT_CONTENT);
-                    Log.v("css", content);
                     Toast.makeText(MainActivity.this,"codeType:" + type
                             + "-----content:" + content,Toast.LENGTH_SHORT).show();
                     break;
